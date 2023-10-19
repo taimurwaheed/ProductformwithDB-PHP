@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Information Form</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+</head>
+<body>
+    <a href="./select.php">View Products</a>
     <h2>Product Information Form</h2>
-    <form action="./insert.php" method="POST">
+    <form action="./insert.php" method="POST" class="product-form">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required/>
 
@@ -37,5 +40,5 @@
 
       <input type="submit" value="Submit" />
     </form>
-  </body>
+</body>
 </html>
