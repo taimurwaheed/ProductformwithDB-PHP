@@ -83,6 +83,23 @@ ob_end_flush();
 <head>
     <title>Update Product Record</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        button[name="delete"] {
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+button[name="delete"]:hover {
+    background-color: #c0392b;
+}
+    </style>
 </head>
 <body>
     <form action="./update.php" method="post">

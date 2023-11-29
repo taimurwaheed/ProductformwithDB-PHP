@@ -5,6 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display Product</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+
+            .product-table {
+                width: 80%;
+                margin: 50px auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            a {
+                display: block;
+                margin-bottom: 20px;
+                background-color: #3498db;
+                color: #fff;
+                padding: 10px;
+                text-decoration: none;
+                border-radius: 4px;
+            }
+
+            a:hover {
+                background-color: #207cca;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                border: 1px solid #ddd;
+                padding: 10px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #3498db;
+                color: #fff;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            tr:hover {
+                background-color: #f0f0f0;
+            }
+    </style>
 </head>
 <body>
     <a href="./productform.html">Add New Product Record</a>

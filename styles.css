@@ -53,3 +53,19 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #2980b9;
 }
+
+button[name="delete"] {
+  background-color: #e74c3c;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button[name="delete"]:hover {
+  background-color: #c0392b;
+}
